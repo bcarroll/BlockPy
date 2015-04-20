@@ -1,2 +1,7 @@
 # BlockPy
-The purpose of BlockPy is to allow Python source code to be written in a more traditional (curly brace/block style) format 
+The purpose of BlockPy is to allow Python source code to be written in a more traditional format
+(using curley braces to delimit blocks of code).
+
+BlockPy also removes Python's indentation based syntax requirement.
+Anything within a block code, (blocks of code are within curly braces {}) is not required to be indented.
+BlockPy will automatically insert the proper indentation and produce Python code that is syntically correct.
