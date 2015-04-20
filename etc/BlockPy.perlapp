@@ -1,0 +1,34 @@
+#!C:\Program Files\ActiveState Perl Dev Kit 9.3\bin\perlapp-gui.exe
+PAP-Version: 1.0
+Packer: C:\Program Files\ActiveState Perl Dev Kit 9.3\bin\perlapp.exe
+Script: BlockPy.pl
+Cwd: C:\Users\bcarroll\Desktop\BlockPy
+Clean: 1
+Date: 2015-04-20 10:05:13
+Debug: 
+Dependent: 0
+Dyndll: 0
+Exe: BlockPy.exe
+Force: 1
+Gui: 0
+Hostname: BCARROLL14
+Icon: BlockPy_small.ico
+Manifest: 
+No-Compress: 0
+No-Logo: 1
+Runlib: 
+Shared: none
+Tmpdir: 
+Verbose: 0
+Version-Comments: 
+Version-CompanyName: Brett Carroll
+Version-FileDescription: Convert structured blocks of Python code (defined within curly braces) to traditional Python syntax
+Version-FileVersion: 0.1
+Version-InternalName: BlockPy
+Version-LegalCopyright: 2015
+Version-LegalTrademarks: 
+Version-OriginalFilename: BlockPy
+Version-ProductName: BlockPy
+Version-ProductVersion: 0.1
+Warnings: 0
+Xclude: 0
