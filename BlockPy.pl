@@ -159,13 +159,16 @@ sub _verify_input_file { # If file exists and is readable, slurp in the file con
 sub _usage { #TODO:
 	print ("\n* sub->_usage()\n\n") if $DEBUGGING;
 	print "Usage: \n";
+	print "	BlockPy -f <InputFile> -o <OutputFile>\n";
+	print "\nOptions:\n";
 	print "	-f , -file          :   Input file containing \"BlockPy\" compatible source code\n";
 	print "	-t , -tab indent    :   Use tab as the indentation character ( default is space )\n"; 
 	print "	-n , -indent_num    :   Number of indentation characters ( default is 4 )\n";
 	print "	-o , -output        :   Output file to write converted Python code to ( default is to write to STDOUT only)\n";
 	print "	-d , -debug         :   Display extended internal operational information\n";
-	print "	-h , -help          :   Display extended usage documentaion\n";
+	print "	-h , -help          :   Display this page (plus additional info)\n";
 	exit() unless shift; # end script unless something is passed to _usage().  Only intended for use by the _help() subroutine
+
 }
 
 sub _help {
