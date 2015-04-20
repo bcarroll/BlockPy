@@ -4,7 +4,7 @@ The purpose of BlockPy is to allow Python source code to be written in a more tr
 
 BlockPy also removes Python's indentation based syntax requirement.
 
-Anything within a block code, (blocks of code are within curly braces {}) is not required to be indented.
+Anything within a block of code, (blocks of code are within curly braces {}) is not required to be indented.
 
 BlockPy will automatically insert the proper indentation and produce Python code that is syntically correct.
 
